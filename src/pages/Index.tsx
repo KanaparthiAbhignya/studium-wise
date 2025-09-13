@@ -3,6 +3,7 @@ import { HeroSection } from "@/components/HeroSection";
 import { StudyDashboard } from "@/components/StudyDashboard";
 import { DocumentProcessor } from "@/components/DocumentProcessor";
 import { AnalyticsDashboard } from "@/components/AnalyticsDashboard";
+import AILearningCoach from "@/components/AILearningCoach";
 
 const Index = () => {
   return (
@@ -10,6 +11,7 @@ const Index = () => {
       <StudyHeader />
       <HeroSection />
       <StudyDashboard />
+      <AILearningCoach />
       <DocumentProcessor />
       <AnalyticsDashboard />
     </div>
